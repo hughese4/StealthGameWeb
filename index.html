@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Unity Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Stealth Game</h1>
+    <div id="gameContainer" style="width: 960px; height: 600px; margin: 0 auto;"></div>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebBuild.loader.js", { onProgress: UnityProgress });
+    </script>
+</body>
+</html>
