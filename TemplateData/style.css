@@ -22,7 +22,7 @@ body {
   }
   
   #unity-canvas { 
-    background: #ffffff;
+    background: #31023a;
     width: 80vw;
     height: calc(80vw * 9 / 16);
     max-width: 1920px;
